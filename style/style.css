@@ -271,9 +271,11 @@ header {
     max-width: 80%;
     margin: 120px auto;
 }
-.gift-info-container{
-width: 70%;
+
+.gift-info-container {
+    width: 70%;
 }
+
 .gift-offer-title {
     color: #F00;
     font-family: 'Inter', sans-serif;
@@ -302,24 +304,78 @@ width: 70%;
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px; 
-    max-width: 800px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
     margin: 20px auto;
-  }
-  
-  .photo {
-    overflow: hidden; 
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-  }
-  
-  .photo img {
-    width: 100%; 
-    height: auto;
-  }
+}
 
-  .photo img:hover{
+.photo {
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.photo img:hover {
     transition: 1.5s;
     transform: scale(1.3);
     z-index: 2;
-  }
+}
+
+/* subscribe section */
+.subscribe {
+    padding: 40px;
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sub-info-container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.sub-info-title {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-info-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.your-email {
+    padding: 15px 50px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.sub-btn {
+    padding: 15px 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.email-and-btn{
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
