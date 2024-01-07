@@ -113,16 +113,17 @@ header {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
-.info-container{
+.info-container {
     padding: 100px 300px 10px;
     margin-bottom: 0;
 }
 
-.info-title{
-   color: #F00;
-    
+.info-title {
+    color: #F00;
+
 }
-.join{
+
+.join {
     background-color: #F00;
     color: white;
     margin-top: 0;
@@ -134,4 +135,67 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+/* new offer's styles */
+.new-offer {
+    max-width: 80%;
+    margin: 120px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.upcoming-offer {
+    width: 80%;
+    margin: 0, auto;
+}
+
+.upcoming-offer-title {
+   
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.upcoming-offer-sub-title {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.year {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-offer-image{
+    width: 50%;
+    margin: auto;
+    background-image: url("../photos/Group\ 44.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.offer-image{
+    width: 80%;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius:50%;
 }
