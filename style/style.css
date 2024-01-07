@@ -57,6 +57,7 @@ header {
 
 /* party section's style */
 .party {
+    margin-top: 120px;
     border-radius: 10px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../photos/Vectorrr.png);
     color: #FFF;
@@ -65,7 +66,7 @@ header {
 
 .party-site-container {
     width: 50%;
-    padding: 30px;
+    padding: 50px;
     margin-left: 30px;
 }
 
@@ -81,4 +82,23 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
+}
+
+.party-btn {
+    background-color: black;
+    color: #FFF;
+    margin-top: 30px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.party-btn:hover {
+    background-color: #F00;
+    transition: 1s;
 }
