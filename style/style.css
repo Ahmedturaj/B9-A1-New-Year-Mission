@@ -185,7 +185,7 @@ header {
 }
 
 .new-offer-image {
-    width: 50%;
+    width: 60%;
     margin: auto;
     background-image: url("../photos/Group\ 44.png");
     background-repeat: no-repeat;
@@ -195,6 +195,7 @@ header {
 }
 
 .offer-image {
+    text-align: center;
     width: 80%;
     background-color: #FFF;
     padding: 20px;
@@ -391,7 +392,7 @@ footer {
 
 .location-and-contract {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -436,4 +437,10 @@ height: auto;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
+}
+.horizontal{
+width: 80%;
+margin: 0 auto;
+color: rgb(124, 117, 117);
+opacity: 0.6;
 }
